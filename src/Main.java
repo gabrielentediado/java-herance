@@ -36,7 +36,7 @@ class Aluno extends Pessoa{
     @Override
     void exibirInfo() {
         super.exibirInfo();
-        JOptionPane.showMessageDialog(null, "Informações pessoais\nIdade: :"+matricula);
+        JOptionPane.showMessageDialog(null, "Informações pessoais\nMatricula: :"+matricula);
     }
 }
 
@@ -50,7 +50,7 @@ class Professor extends Pessoa{
     @Override
     void exibirInfo() {
         super.exibirInfo();
-        JOptionPane.showMessageDialog(null, "Informações pessoais\nIdade: :"+salario);
+        JOptionPane.showMessageDialog(null, "Informações pessoais\nSalário:: :"+salario);
 
     }
 }
